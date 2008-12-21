@@ -5,6 +5,19 @@
 # La licenza si applica a tutti i contenuti del file tar.gz/zip che avete scaricato (codice, set di risposte, etc) e siete incoraggiati a utilizzare, studiare, modificare e distribuire gli stessi gratuitamente nei termini della licenza.
 
 
+
+Bioinfy - the first Bioinformatics chatterbot
+
+This is a project I wrote for an introductory course I attended on perl.
+Feel free to have a look at it.
+It is not recommended to use it, because when I wrote it, I wasn't very aware of security risks.
+
+
+----------------------
+
+BEGIN OLD README
+
+
 Istruzioni per l'installazione
 
 Dipendenze
