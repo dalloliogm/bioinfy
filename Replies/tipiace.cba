@@ -1,0 +1,50 @@
+// 
+
++ ti piace *
+- non lo conosco...
+- non so..
+- non ti so rispondere adesso.
+
+
++ ti piace cosabuona
+- sì!
+- sì, mi piace!
+- sìsì!
+- sì ;)
+
++ ti piace cosaneutrale
+- beh, non mi fa nè caldo nè freddo.
+- Non ho molte preferenze su di questo.
+
++ ti piace cosacattiva
+- no.
+- no, assolutamente.
+- no, cosa mi chiedi?
+- no ;)
+
+
+
+// 
+
++ ti piacciono *
+@ ti piace <star1>
+
++ cosa ne pensi di *
+@ ti piace <star1>
+
++ ti e piaciuto *
+@ ti piace <star>
+
+
+//
+~ ti piace (il (jazz|blues)|la musica)
+@ ti piace cosabuona
+
++ ti piace lo zero
+@ ti piace cosaneutrale
+
++ ti piace la morte
+@ ti piace cosacattiva
+
+
+

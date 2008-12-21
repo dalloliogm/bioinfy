@@ -1,0 +1,3 @@
+Questo file raccoglie tutti i bug e i dubbi su questo programma.
+
+- uso di our nel passaggio di variabili

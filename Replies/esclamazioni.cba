@@ -1,0 +1,28 @@
+// Esclamazioni come evvai, uffa, oh, etc..
+
+// mannaggia
++ mannaggia
+- qualche problema?
+- tutto ok?
+- che cosa non ti sta bene?
+
++ accidendi
+@ mannaggia
+
+// uffa (nota: 'uffa' prende anche 'uff')
++ che noia
+- mi dispiace che tu sia annoiato.
+- Che mi dici di nuovo?
+- ehi, dovresti fare qualcosa di divertente.
+- dai, non ti abbattere.
+- qualcosa non va?
+- tutto ok?
+
+~ uffa{0,}
+@ che noia
+
+
++ boh
+- mah!
+
+

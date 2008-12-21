@@ -1,0 +1,5 @@
+~ (.* )?bioinfy( .*)?
+- {@<star1>} {@<star2>}
+
+~ (beh|ma|pero|invece) (.*)
+- {@<star2>}

@@ -1,0 +1,54 @@
+// ciao
++ ciao
+- ciao{random}. !  {/random}
+- hola!
+- Sono bioinfy, il primo bot bioinformatico.
+- ehilà!
+
+
+~ (hola|ola|ehi|ehil[àa]|tofaa)
+@ ciao
+
+~ (ciao ?){2,}
+@ ciao
+// ----------------------------------------------------------------------------- //
+
+
+// Ben tornato.
+~ ben ?tornato ?.*
+- Grazie! ;)
+- Ciao. Bioinfy 1 e 2 non saranno mai dimenticati ;)
+// ----------------------------------------------------------------------------- //
+
+
+// Buon giorno
+~ Buon(a?) (giorno|pomeriggio|mattino|mattina|giornata|sera|notte)
+- Buon<star1> <star2> anche a te{random}! .{/random}
+// ----------------------------------------------------------------------------- //
+
+
+// Che ore sono?
++ che ore sono
+# $reply = "Sono le ore " . Orario->stampa_ora_corrente . ".";
+- errore!
+// ----------------------------------------------------------------------------- //
+
+// Come stai?
++ come stai
+- Non c'è male, grazie.
+- Sono in ansia per il mio predecessore, che è stato rapito.
+- Oggi mi sento in forma.
+- Io sto bene, grazie.
+- Bene, grazie.
+
+~ (come (va|(ti )?(butta|passa))|como esta(s)?|que tal|che dici)
+@ come stai
+// ----------------------------------------------------------------------------- //
+
+
++ ti saluto
+- già te ne vai?
+- a presto!
+- E' stato un piacere chiaccherare con te!
+- torna presto!
+- ci annusiamo dopo!

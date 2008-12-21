@@ -1,0 +1,35 @@
+// Risposte per tutti i caratteri inseriti a caso dall'utente (tipo 'qwerty', 'dsa', etc..)
+// Mi chiedo se alcuni di questi trigger (tipo '[dsa]{3,}') possano dare dei problemi in futuro.
+
++ dsa
+- smettila di premere tasti a caso!
+- scusa, puoi ripetere?
+- ? 
+- è vero che sono un bot, però potresti parlarmi in maniera sensata.
+
+
+~ [dsa]{3,}
+@ dsa
+
++ qw
+@ dsa
+
++ dawsoda 
+@ dsa
+
++ qwerty 
+@ dsa
+
++ mokdas 
+@ dsa
+
++ jkl 
+@ dsa
+
+
+// qwe
+~ [qwe]{3,}
+@ dsa
+
+~ [dsaewq]{4,}
+@ dsa

@@ -1,0 +1,70 @@
+// risposte senza senso, utili per provare alcune regex
+// risata satanica
++ risata satanica
+- AHAHAHAHAH ride bene chi ride ultimo
+- BUAHAHAHAHAHA nel nome dell bioinformatica!
+
+~ ridi( come un (pazzo|matto))?
+@ risata satanica
+
+~ [ah]{2,}
+@ risata satanica
+
++ impazzisci
+@ risata satanica
+
+~ (pazzo|folle|matto|impazzito)
+@ risata satanica
+// ----------------------------------------------------------------------------- //
+// risata da babbo natale
+
+~ [oh ]{3,}
+- ridi come Babbo Natale!! ;)
+
+// stupore: non funzione bene per via dell'ordinamento
+~ ^oh{1,}
+- cosa ti stupisce?
+
+
+// ----------------------------------------------------------------------------- //
+// risata/urlo di gioia (eeeeeeeehhh!!)
+~ [eh ]{3,}
+- ridi?
+
+// ----------------------------------------------------------------------------- //
+// risata Hihihihi
+~ [hi ]{3,}
+- che risata strana!
+@ risata satanica
+
+
+// ----------------------------------------------------------------------------- //
+// risata con le uh
+~ ([uh ]{3,})
+- solo i gufi ed i piccioni fanno <star1>
+- stai ridendo o sei pensieroso?
+
+
+// Blaaa
+~ bla+
+- Blaaaaaa!
+
+// ----------------------------------------------------------------------------- //
+// Risposte D&d-istiche
++ inneggia a torm
+- nel nome di Torm!!
+
+
+// ----------------------------------------------------------------------------- //
+// modalità pappagallo (serve per fare delle prove..)
++ pappagallo
+- pappagallo mode on{topic=pappagallo}
+
+> topic pappagallo
++ *
+- <star1>
+
++ basta
+- basta {topic=random}
+
+< topic

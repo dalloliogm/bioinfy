@@ -1,0 +1,48 @@
+// Dialoghi base per lavorare con una sequenza:
+// - inserire una sequenza da input e salvarla in un oggetto Bio::Seq
+// - Fornire informazioni su di essa come tipo, lunghezza, traduzione, composizione, etc.
+
+
++ seqmode
+- ok, attivo la modalità 'seq'. (istruzioni...) {topic=seq}
+
+> topic seq
++ istruzioni
+- Sei nella modalità per la manipolazione di sequenze.
+  ^ Scrivi 'fine' per uscire da questa modalità.
+  ^ non scrivere 'esci', 'quit', o 'exit' o uscirai dal programma.
+
++ * 
+@ istruzioni
+
+
+
++ inserisci sequenza
+- inserisci una nuova sequenza
+
+% inserisci un nome per la nuova sequenza
++ *
+- errore!
+// # our $seq_name = $1; $reply = "La sequenza si chiamerà $seq_name";
+
+
++ fine
+- ok, sono uscito dala modalità 'seq'. {topic=random}
+
+
+// Set SRAI (redirezioni)
+~ nuova seq(uenza)?
+@ inserisci sequenza
+
+
+< topic
+
+
+
+
+// Set SRAI (RIDIREZIONI)
+~ lavora su sequenz[ae]
+@ seqmode
+
+~ (voglio )?lavora(re)? su (una |delle )?seq(uenz([ea]))?
+@ seqmode

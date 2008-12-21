@@ -1,0 +1,25 @@
+// Comandi di sistema
+
+// privilegi di superutente
++ su
+- inserisci la password {topic=su} 
+
+> topic su
++ *
+- Password scorretta {topic=random}
+
+// Questa è la password per diventare superutente
++ slpat3fa
+# $reply = "ok, password corretta! Scrivi 'esci' per uscire dala modalità superutente."
+
+< topic
+
+
+
+
+
+// bootstrap (ricarica tutte le risposte senza dover riavviare il programma) // non funziona
++ bootstrap
+# $reply = Sistema::bootstrap;
+//# main::$bioinfy->loadFolder('./Replies/Apprendimento/nuove.cba'); $reply = 'ok';
+- errore!

@@ -1,0 +1,12 @@
+// Ricava informazioni dal forum di molecularlab
+
+// nuovi messaggi
++ controlla molecularlab forum
+# $reply = Molecularlab::nuovi_messaggi;
+- errore!
+
+~ ci sono (nuovi )?messaggi (ne|su)(l forum di)?( (molecularlab|mb))?
+@ controlla molecularlab forum
+
+~ (ce )?qualche (nuovo )?messaggio (ne|su)(l forum di)?( (molecularlab|mb))?
+@ controlla molecularlab forum

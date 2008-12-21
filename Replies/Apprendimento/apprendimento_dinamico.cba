@@ -1,0 +1,11 @@
+// Risposte per l'apprendimento
+
+// Incomprensioni
++ * significa *
+# $reply = Apprendimento::aggiungi_riferimento;
+- errore!
+
++ che significa *
+- forse vuol dire "{@<star1>}".
+- mmm.. hai capito qual è il problema nel modo in cui ho implementato l'apprendimento dinamico.
+- lo stai chiedendo a me? ;)

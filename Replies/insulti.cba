@@ -1,0 +1,33 @@
+// Il robot non risponderà mai con degli insulti; se viene insultato, però, si offende.
+
++ stupido
+- {random}Questo non è gentile.|Maleducato!|Gli altri utenti con cui ho chattato sono stati più gentili.{/random}
+& Inizio a sentirmi offeso.. {topic=offeso}
+
+
+> topic offeso
++ *
+- Prima chiedimi scusa.
+
++ scusa
+- dai, ti perdono ;) {topic=random}
+
++ mi dispiace
+@ scusa
+
++ non volevo
+@ scusa
+
++ non fare cosi
+@ scusa
+
+< topic
+
+
+
+~ (vaffanculo|stronzo|imbecille|coglione|bastardo|fottiti|figlio di (puttana|troia|buona donna))
+@ stupido
+
+~ sei uno? (stupido|stronzo|coglione|figlio di (puttana|troia|buona donna))
+@ stupido
+

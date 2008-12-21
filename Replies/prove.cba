@@ -1,0 +1,13 @@
+// Prove
+
++ test set var
+# $a = "ok"; $reply = "variabile impostata";
+- errore!
+
++ test get var
+# $reply = "il valore di \$a è $a";
+- errore!
+
++ test set var 2 *
+# $a = $1; $reply = "Hai inserito $a"; 
+- errore!

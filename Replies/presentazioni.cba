@@ -1,0 +1,31 @@
+// Gestisce le presentazioni (mio nome, nome del bot, etc..)
+
+// frasi introduttive
++ piacere di conoscerti
+- il piacere è tutto mio.
+- grazie per aver deciso di chattare con me.
+
++ piacere
+@ piacere di conoscerti
+
+// ----------------------------------------------------------------------------- //
+
+
+// mi chiamo *
++ mi chiamo *
+# our $user_nick = $1; $reply = "ti chiami $user_nick";
+- errore!
+
++ nome *
+# setVariable("a", "$1"); $reply = "ti chiami $a";
+- errore!
+// ----------------------------------------------------------------------------- //
+
+// Come mi chiamo?
++ mio nome
+# our $user_nick; $reply = "Il tuo nome è $user_nick";
+- errore!
+
++ come mi chiamo
+@ mio nome
+
